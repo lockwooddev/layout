@@ -1,0 +1,110 @@
+body {
+    font-family: "Helvetica Neue", Arial;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: 1px solid #aaa;
+}
+
+header h1 {
+    font-size: 48px;
+    padding-left: 16px;
+}
+
+#wrapper {
+    min-width: 600px;
+    overflow: hidden;
+    padding-bottom: 16px;
+    width: 100%;
+}
+
+section p {
+    font-weight: 200;
+    line-height: 24px;
+    padding: 16px;
+}
+
+section.left {
+    float: left;
+    width: 300px;
+}
+
+.hide {
+    display: none;
+}
+
+section.right {
+    float: right;
+    width: calc(100% - 300px);
+}
+
+.expand {
+    width: 100% !important;
+}
+
+footer {
+    clear: both;
+}
+
+.button {
+    background: #ccc;
+    color: #444;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 16px;
+    padding: 8px 10px;
+    text-decoration: none;
+    text-align: center;
+
+    text-shadow: 0px 1px 0px rgba(255,255,255, 1);
+
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+
+    -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.35);
+}
+
+.button:active, .button:visited {
+    border: none;
+    outline: none;
+}
+
+.button:hover, .button:active {
+    background: #bbb;
+}
+
+.button:hover {
+    -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.45);
+}
+
+.button:active {
+    -webkit-box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.45);
+}
+
+footer {
+    border-top: 1px solid #aaa;
+    padding: 16px 16px;
+}
+
+footer a {
+    color: #444;
+    display: block;
+    font-size: 14px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: orange;
+}
